@@ -41,4 +41,3 @@ tests/      Specs (all assertions live here)
 - Locators use `data-test` attributes via `testIdAttribute` in `playwright.config.ts` (saucedemo's convention).
 - Tests are independent and run in parallel. Each one logs in on its own.
 - Reporting: console `list` reporter and an HTML report. Screenshots are saved on failure and traces on the first retry.
-# SauceDemoAutomationTest
